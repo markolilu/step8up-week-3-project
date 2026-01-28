@@ -118,9 +118,9 @@
         </section>
         <br>
 
-        <section name ="projects" id = "projects">
+        <section class="my-3" name ="projects" id = "projects">
             
-            <div class="row pt-5">
+            <div class="row py-3 ">
                 <div class="container-fluid text-center py-3 d-flex justify-content-center">
                     <h2>Projects</h2>
                 </div>
@@ -159,38 +159,65 @@
         </section>
 <br>
         <section name ="contact-me" id ="contact-me">
-            <div class="div-header">
-            <h2>Contact Me</h2>
-</div>
 
-            <div name ="contact-my-info" class = "contact-my-info">
-                <h3>My Contact Information:</h3>
-                <br>
-                <div class="section-splitter">
+            <div class="row py-3 ">
+                <div class="container-fluid text-center py-3 d-flex justify-content-center">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="container-fluid text-center py-3 d-flex justify-content-center">
+                    <h3>My Contact Information:</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col d-flex justify-content-end">
                     <h4>Email:<a href="mailto:mark@example.com">mark@example.com</a></h4>  <!-- Put email address here -->
+                </div>
+                <div class="col d-flex justify-content-start">
                     <h4>Phone:<a href="tel:+1234567890">+1234567890</a></h4>  <!-- Put phone number here -->
                 </div>
             </div>
-        <br>
-        <br>
- <div class="div-header">
-            <h2>Contact Me Form:</h2>
+
+            <div class="row">
+                <div class="container-fluid text-center py-3 d-flex justify-content-center">
+                    <h2>Contact Me Form:</h2>
+                </div>
             </div>
 
-            <div name ="contact-form">
-                <form class ="contact-form">
-                    <label for="name" class="label-name">Name:</label><br>
-                    <input type="text" class="form-input" id="name" name="name" placeholder="input your name"><br><br>
-                    <label for="telephone" class="label-telephone">Telephone:</label><br>
-                    <input type="tel" class="form-input" id="telephone" name="telephone" placeholder="input your telephone"><br><br>
-                    <label for="email" class="label-email">Email:</label><br>
-                    <input type="email" class="form-input" id="email" name="email" placeholder="input your email"><br><br>
-                    <label for="message" class="label-message">Message:</label><br>
-                    <textarea id="message" class="form-input" name="message" rows="4" cols="50" placeholder="context of your inquiry"></textarea><br><br>
+            <div class="row">
+                <div class="col d-flex flex-column align-items-center py-2">
+                    <label for="name" class="label-name">Name:</label>
+                    <input type="text" class="form-input" id="name" name="name" placeholder="input your name">
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col d-flex flex-column align-items-center py-2">
+                    <label for="telephone" class="label-telephone">Telephone:</label>
+                    <input type="tel" class="form-input" id="telephone" name="telephone" placeholder="input your telephone">
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col d-flex flex-column align-items-center py-2">
+                    <label for="email" class="label-email">Email:</label>
+                    <input type="email" class="form-input" id="email" name="email" placeholder="input your email">
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col d-flex flex-column align-items-center py-2">
+                    <label for="message" class="label-message">Message:</label>
+                    <textarea id="message" class="form-input" name="message" rows="4" cols="50" placeholder="context of your inquiry"></textarea>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col d-flex flex-column align-items-center py-2">
                     <input type="submit" class="button" value="Submit">
+                </div>
             </div>
 
-            
             
         </section>
 
